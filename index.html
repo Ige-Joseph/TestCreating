@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header with SVG Icons</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="light-theme">
+
+
+
+        <!-- Loader -->
+        <div id="loader" class="sound-wave">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+
+
+
+
+
+        <!-- Main Content -->
+    <div id="main-content"   style="display: none;">
+
+                            
+                            <header class="Nav-header">
+                                <nav class="navbar">
+                                    <div class="logo">
+                                        <img src="/src/GS.svg" alt="Logo">
+                                        <span class="Logo-name">Brainy Integrated</span>
+                                    </div>
+                                    <ul class="nav-links">
+                                        <li><a href="#">Our Courses</a></li>
+                                        <li><a href="#">Our Services</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                    </ul>
+                                    <div class="auth-buttons">
+                                        <button class="login-btn">Sign Up</button>
+                                    </div>
+                                    <div class="theme-toggle" id="toggle-icon">
+                                        <!-- Sun Icon -->
+                                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="5"></circle>
+                                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                        </svg>
+
+                                        <!-- Moon Icon (hidden by default) -->
+                                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                                            <path d="M21 12.79A9 9 0 0111.21 3 7 7 0 1012 21a9 9 0 009-8.21z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </nav>
+                            </header>
+
+                            <main> 
+                                <section>
+
+
+
+                                    <div class="slider">
+                                        <div class="slides">
+                                            <div class="slide">  
+                                                <img src="/src/Artboard 1 1.png">   
+
+                                                <div class="slide-info"> 
+
+                                                    <div class="approach-container">
+                                                        <h2>APPROACH</h2>
+                                                        <p>Our Specially Designed LMS Software<br>Designed To Function Offline Anywhere Across The World</p>
+                                                        <a href="#" class="learn-more-btn">LEARN MORE</a>
+                                                    </div>
+                                                    
+                                                    
+
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="slide">  
+                                                <img src="/src/Artboard 12.png">   
+
+                                                <div class="slide-info"> 
+
+                                                    <div class="approach-container">
+                                                        <h2>APPROACH</h2>
+                                                        <p>Our Specially Designed LMS Software<br>Designed To Function Offline Anywhere Across The World</p>
+                                                        <a href="#" class="learn-more-btn">LEARN MORE</a>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div>
+                                            
+
+                                            <div class="slide">  
+                                                <img src="/src/Artboard 13.png">   
+
+                                                <div class="slide-info"> 
+
+                                                    <div class="approach-container">
+                                                        <h2>APPROACH</h2>
+                                                        <p>Our Specially Designed LMS Software<br>Designed To Function Offline Anywhere Across The World</p>
+                                                        <a href="#" class="learn-more-btn">LEARN MORE</a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <button class="prev" onclick="prevSlide()"> &#10095;  </button>
+                                        <button class="next" onclick="nextSlide()"> &#10094;  </button>
+                                    </div>
+                                    
+                            
+
+
+
+                                </section>
+
+
+                                    
+
+                                <section class="NoteWordyTags">
+
+
+
+                                    <div class="WeRepresent"> We represent </div>
+
+                                    <div class="text-container">
+                                        <span id="transition-text">Reliable</span>
+                                        <div class="underline"></div>
+                                    </div>
+
+
+                                    <div class="Shortnotes">
+
+
+                                        GS Brainy Integrated is a Digital Accounting firm focused in delivering Innovative Digital Accounting Solutions, tailored to Simplify and support the ranging technological needs of businesses and Accountants.
+
+
+
+                                    </div>
+                                    
+
+
+                                    <div class="Shortnotes">
+
+
+                                        At GS Brainy Integrated, we wholeheartedly embrace the principle that We Have “All Accounting Solutions at our fingertip”. We are a team of Seasoned Accountants, Human Resource Managers and I.T Specialists who are committed to bringing digitalized simplicities to Accounting and Human Resources Functions.
+
+
+
+                                    </div>
+                                
+
+
+                                </section>
+
+
+
+
+                                <section>  
+
+
+                                    <div class="WhatWeDo">
+
+
+
+                                        <span class="WhatWeoffer">      What We Offer        </span>  
+
+
+
+                                    </div>
+
+
+                                    <div class="WhatWedosection">
+
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+                                        
+                                        <div class="container">
+                                            <img src="/src/Rectangle 24711.png" alt="Digital Accounting Software">
+                                            <div class="text-overlay">DIGITAL ACCOUNTING SOFTWARE COURSES</div>
+                                        </div>
+                                        
+
+
+
+
+                                    </div>
+
+
+                                    
+
+
+                                    <div class="WhatWeDo1">
+
+
+
+                                        <span class="WhatWeoffer1">   Read More </span>  
+
+
+
+                                    </div>
+
+
+
+                                </section>
+
+
+
+
+                                        <section class="CompanyDetails">
+
+                                            <div class="projects-container">
+                                                <div class="left-panel">
+                                                <h2>Latest Projects</h2>
+                                                <p>View some of the latest solutions we've successfully delivered</p>
+                                                <a href="#" class="view-all-btn">View All</a>
+                                                </div>
+                                            
+                                                <div class="right-panel">
+                                                <div class="project-card" style="background-image: url('/src/Rectangle\ 24711.png');">
+                                                    <div class="overlay"></div>
+                                                    <h3>Eroton E&P Community Engagement Project</h3>
+                                                    <p>Community Engagement</p>
+                                                    <div class="read-more">Read More</div>
+                                                </div>
+                                            
+                                                <div class="project-card" style="background-image: url('/src/Artboard\ 1\ 1.png');">
+                                                    <div class="overlay"></div>
+                                                    <h3>Benchmarking Africa's Foremost Building Solutions Provider</h3>
+                                                    <p>Reporting</p>
+                                                    <div class="read-more">Read More</div>
+                                                </div>
+                                            
+                                                <div class="project-card" style="background-image: url('/src/Artboard\ 1\ 1.png');">
+                                                    <div class="overlay"></div>
+                                                    <h3>Ethica 360: Bank of the Future</h3>
+                                                    <p>Finance</p>
+                                                    <div class="read-more">Read More</div>
+                                                </div>
+                                            
+                                                <div class="project-card" style="background-image: url('/src/Rectangle\ 24711.png');">
+                                                    <div class="overlay"></div>
+                                                    <h3>New Project Name</h3>
+                                                    <p>Project Type</p>
+                                                    <div class="read-more">Read More</div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+
+                                        </section>
+
+
+
+
+
+
+                            </main>
+
+
+
+
+                            
+
+
+
+
+
+                            <footer>
+
+
+
+
+
+
+
+                                                            
+                                                    <section class="subscription-section">
+                                                        <div class="subscription-wrapper">
+                                                            <div class="subscription__description">
+                                                                <h2>
+                                                                    Join 10k+ other readers!
+                                                                </h2>
+                                                                <p>
+                                                                    Stay up to date with our news and articles
+                                                                </p>
+                                                            </div>
+                                                            <form class="subscribe-form">
+                                                                <input type="email" spellcheck="false" placeholder="Your Email">
+                                                                <button type="submit">
+                                                                Subscribe
+                                                                </button>
+                                                            </form>
+                                                        </div>
+                                                    </section>
+                                                    <footer>
+                                                        <div class="footer-wrapper">
+
+                                                            <div class="social-wrapper">
+                                                                <div class='social-links'>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" title="Instagram">
+                                                                                <img src="assets/instagram.svg" alt='Instagram'>                       
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Linkedin">
+                                                                                <img src="assets/linkedin.svg" alt='Linkedin'>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Twitter">
+                                                                                <img src="assets/twitter.svg" alt='Twitter'>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Youtube">
+                                                                                <img src="assets/youtube.svg" alt='YouTube'>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="GitHub">
+                                                                                <img src="assets/github.svg" alt='GitHub'>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="footer-columns">
+                                                                <div class="footer-links">
+                                                                    <div class="footer-logo">
+                                                                        <svg width="1103" height="996" viewBox="0 0 1103 996" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <section>
+                                                                        <h3>Product</h3>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a href="#" title="API">API</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Pricing">Pricing</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Documentation">Documentation</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Release Notes">Release Notes</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Status">Status</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </section>
+                                                                    <section>
+                                                                        <h3>Resources</h3>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a href="#" title="Support">Support</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Sitemap">Sitemap</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Newsletter">Newsletter</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Help Centre">Help Centre</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Investor">Investor</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </section>
+                                                                    <section>
+                                                                        <h3>Company</h3>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a href="#" title="About Us">About Us</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Blog">Blog</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Careers">Careers</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Press">Press</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Contact">Contact</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </section>
+                                                                    <section>
+                                                                        <h3>Legal</h3>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a href="#" title="Terms and services">
+                                                                                    Terms
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Privacy Policy">
+                                                                                    Privacy
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Cookies">
+                                                                                    Cookies
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Licenses">
+                                                                                    Licenses
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Cookies">
+                                                                                    Contact
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </section>
+                                                                </div>
+                                                            
+                                                            </div>
+                                                            <div class="footer-bottom">
+                                                                <div class="footer-description">
+                                                                    <h3>Elevate your tech skills</h3>
+                                                                    <p>Develop and design platforms with ease<p>
+                                                                </div>
+                                                                <small>© Atheros Intelligence Ltd. <span id="year"></span>, All rights reserved</small>
+                                                            </div>
+                                                        </div>
+                                                    </footer>
+                                                    <script>
+                                                        document.getElementById("year").innerHTML = new Date().getFullYear();
+                                                    </script>
+                                            
+
+
+
+
+
+
+
+
+
+                                
+                            </footer>
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
